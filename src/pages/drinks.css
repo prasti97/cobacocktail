@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Spline+Sans+Mono&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Spline Sans Mono', monospace;
+}
+
+.drink {
+  background-color: #4a0513;
+  color: #fff;
+}
+
+.bulat {
+  background-color: #b1203d;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 62%;
+  width: 40%;
+  border-radius: 0px 0px 0px 100%;
+}
+
+.drink h1 {
+  padding: 20px;
+  z-index: 1;
+}
+
+.drink .form-search {
+  padding: 20px 150px;
+  z-index: 1;
+}
+
+.drink .form-search label {
+  position: relative;
+  bottom: -5px;
+}
+
+.drink .form-search #search {
+  border-radius: 8px 0px 0px 8px;
+}
+
+.drink .form-search button {
+  background-color: #84132a;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+}
+.drink button:hover,
+.drink button:active,
+.drink button:focus {
+  background-color: #b64057;
+  outline: none;
+}
+
+.btn-group {
+  width: auto;
+  margin: 0px 40%;
+}
+
+.btn-group .btn {
+  color: #fff;
+  background-color: #84132a;
+}
+
+.btn-group .btn:hover,
+.btn-group .btn:active,
+.btn-group .btn:focus {
+  color: #fff;
+  background-color: #b64057;
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 767.98px) {
+  .drink .form-search {
+    padding: 20px;
+  }
+}
+@media (max-width: 991.98px) {
+  .drink .form-search {
+    padding: 20px 50px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .drink .form-search {
+    padding: 20px 100px;
+  }
+}

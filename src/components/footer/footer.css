@@ -1,0 +1,21 @@
+.footer {
+  background-color: #b1203d;
+}
+.footer p {
+  position: relative;
+  top: -50px;
+}
+
+@media (max-width: 765.98px) {
+  .footer p {
+    position: relative;
+    top: -30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .footer p {
+    position: relative;
+    top: -20px;
+  }
+}

@@ -1,0 +1,45 @@
+.no-data {
+  height: 24vh;
+}
+
+.no-data a {
+  text-decoration: none;
+  color: #fff;
+}
+.no-data a:hover {
+  color: plum;
+}
+
+.cocktailsku {
+  padding: 50px 20px;
+}
+
+.cards .card {
+  border: none;
+  background-color: transparent;
+}
+
+.cards .card a {
+  text-decoration: none;
+  min-height: 400px;
+}
+.card .card-img {
+  height: 300px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card .card-body {
+  border-radius: 0px 0px 20px 20px;
+  color: #fff;
+  background-color: #84132a;
+  height: 80px;
+  box-shadow: rgba(15, 4, 17, 0.8) 0px 1px 3px, rgba(15, 4, 17, 0.4) 0px 1px 2px;
+}
+
+.card a:hover {
+  opacity: 0.6;
+}
+
+.spiner {
+  height: 65vh;
+}
